@@ -1,200 +1,35 @@
-<!DOCTYPE html><html lang="id">
+<!DOCTYPE html>
+<html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Identitas Kelas 8.6</title>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      scroll-behavior: smooth;
-      font-family: 'Poppins', sans-serif;
-    }
-    body {
-      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-      color: #fff;
-      padding: 20px;
-    }
-    h1 {
-      font-family: 'Orbitron', sans-serif;
-      font-size: 2.5em;
-      text-align: center;
-      margin-bottom: 20px;
-      animation: warna-warni 3s infinite;
-    }
-    @keyframes warna-warni {
-      0% {color: red;}
-      25% {color: blue;}
-      50% {color: lime;}
-      75% {color: gold;}
-      100% {color: red;}
-    }
-    .button-container {
-      text-align: center;
-      margin: 10px 0;
-    }
-    .btn {
-      padding: 10px 15px;
-      background: #00bcd4;
-      border: none;
-      color: #fff;
-      margin: 5px;
-      border-radius: 10px;
-      cursor: pointer;
-      transition: 0.3s;
-      font-weight: bold;
-    }
-    .btn:hover {
-      transform: scale(1.1);
-      background: #0097a7;
-    }
-    .wali {
-      font-size: 1.3em;
-      text-align: center;
-      margin: 20px 0;
-      animation: gerak 2s infinite alternate;
-    }
-    @keyframes gerak {
-      0% {transform: translateX(-10px);}
-      100% {transform: translateX(10px);}
-    }
-    .total {
-      text-align: center;
-      font-size: 1.1em;
-      margin: 20px 0;
-      text-shadow: 0 0 10px cyan;
-    }
-    .card {
-      background: rgba(255, 255, 255, 0.1);
-      border: 2px solid rgba(255, 255, 255, 0.2);
-      border-radius: 15px;
-      padding: 15px;
-      margin: 15px auto;
-      width: 90%;
-      max-width: 400px;
-      box-shadow: 0 0 10px #00bcd4;
-      transition: transform 0.3s, background 0.5s;
-    }
-    .card:hover {
-      transform: scale(1.05);
-      background: rgba(0, 188, 212, 0.2);
-    }
-    .highlight {
-      font-weight: bold;
-      font-size: 1.1em;
-      color: gold;
-      text-shadow: 0 0 5px #ff0;
-    }
-    .footer {
-      margin-top: 30px;
-      text-align: center;
-      font-style: italic;
-      font-size: 0.9em;
-      animation: fadeIn 3s ease-in;
-    }
-    @keyframes fadeIn {
-      from {opacity: 0;}
-      to {opacity: 1;}
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SMP Negeri 1 Tembilahan</title>
+  <link rel="stylesheet" href="asset/css/style.css">
 </head>
 <body>
-  <h1>Selamat datang di pengenalan siswa siswi 8.6</h1>
-  <div class="button-container">
-    <button class="btn">Desmiati, S.Pd., M.Pd</button>
-  </div>
-  <div class="wali">Wali Kelas</div>
-  <div class="total">Total siswa 8.6 adalah 28 siswa dan siswi</div>  <!-- Data Identitas -->  <div class="card highlight">
-    <div>Nama: Muhammad Rizky Fahrianto</div>
-    <div>Umur: 15</div>
-    <div>Tanggal Lahir: 03-10-2010</div>
-    <div>Asal: Tembilahan</div>
-    <div>Sifat: Baik</div>
-    <div>Hobi: Ngoding</div>
-    <div>Makanan Favorit: Ayam</div>
-    <div>Minuman Favorit: Susu</div>
-    <div>Gabut: Bikin bot WhatsApp</div>
-  </div>  <div class="card">
-    <div>Nama: M. Naufal Aditya Saputra</div>
-    <div>Umur: 14</div>
-    <div>Tanggal Lahir: 18-03-2011</div>
-    <div>Asal: Tembilahan</div>
-    <div>Sifat: Aneh, Baik</div>
-    <div>Hobi: Ngikut orang</div>
-    <div>Makanan Favorit: Ayam</div>
-    <div>Minuman Favorit: Es teh</div>
-    <div>Gabut: Mikir sana sini</div>
-  </div>  <div class="card">
-    <div>Nama: M. Alfath Riziq</div>
-    <div>Umur: 14</div>
-    <div>Tanggal Lahir: 06-08-2010</div>
-    <div>Asal: Tembilahan</div>
-    <div>Sifat: Baik</div>
-    <div>Hobi: Main bola</div>
-    <div>Makanan Favorit: Nasi Padang</div>
-    <div>Minuman Favorit: Es teh</div>
-    <div>Gabut: Main game</div>
-  </div>  <div class="card">
-    <div>Nama: Muhammad Satria Alfaza</div>
-    <div>Umur: 13</div>
-    <div>Tanggal Lahir: 01-11-2011</div>
-    <div>Asal: Tembilahan</div>
-    <div>Sifat: Tengil</div>
-    <div>Hobi: Futsal</div>
-    <div>Makanan Favorit: Ayam Richeese</div>
-    <div>Minuman Favorit: Milo dingin</div>
-    <div>Gabut: Keluar rumah</div>
-  </div>  <div class="card">
-    <div>Nama: Syahrul Habibi</div>
-    <div>Umur: 14</div>
-    <div>Tanggal Lahir: 22-08-2011</div>
-    <div>Asal: Tembilahan</div>
-    <div>Sifat: Ramah</div>
-    <div>Hobi: Bola</div>
-    <div>Makanan Favorit: Nasi</div>
-    <div>Minuman Favorit: Susu coklat</div>
-    <div>Gabut: Main di luar</div>
-  </div>  <div class="card">
-    <div>Nama: Aulia Rahman</div>
-    <div>Umur: 14</div>
-    <div>Tanggal Lahir: 03-03-2011</div>
-    <div>Asal: Tembilahan</div>
-    <div>Sifat: Baik, Sedikit nakal</div>
-    <div>Hobi: Gamers</div>
-    <div>Makanan Favorit: Kaviar</div>
-    <div>Minuman Favorit: Kopi panas</div>
-    <div>Gabut: Jalan-jalan</div>
-  </div>  <div class="card">
-    <div>Nama: Muhammad Ragil Alhafiz</div>
-    <div>Umur: 14</div>
-    <div>Tanggal Lahir: 04-03-2011</div>
-    <div>Asal: Tembilahan</div>
-    <div>Sifat: Baik</div>
-    <div>Hobi: Futsal</div>
-    <div>Makanan Favorit: Nasi</div>
-    <div>Minuman Favorit: Air putih</div>
-    <div>Gabut: Tidur</div>
-  </div>  <div class="card">
-    <div>Nama: Aprilio Habibi</div>
-    <div>Umur: 14</div>
-    <div>Tanggal Lahir: 29-04-2011</div>
-    <div>Asal: Tembilahan</div>
-    <div>Sifat: Baik</div>
-    <div>Hobi: Main keluar</div>
-    <div>Makanan Favorit: Ayam</div>
-    <div>Minuman Favorit: Tuak</div>
-    <div>Gabut: Nyabu</div>
-  </div>  <div class="button-container">
-    <a class="btn" href="https://wa.me/62895321345547?text=Halo%20saya%20ada%20saran%20untuk%20website%208.6">Hubungi Saya (1)</a>
-    <a class="btn" href="https://wa.me/6285764413880?text=Halo%20saya%20ada%20saran%20untuk%20website%208.6">Hubungi Saya (2)</a>
-  </div>  <div class="footer">
-    Website ini akan terus ditingkatkan oleh <strong style="font-family: 'Orbitron'">Ikyy</strong> dan <strong style="font-family: 'Orbitron'">Adit</strong><br>
-    Ikyy: pembuat website dan lain-lain<br>
-    Adit: meminta identitas dan informasi ke siswa siswi lainnya<br>
-    <br>
-    Terima kasih telah mampir dan melihat website kelas 8.6!
-  </div>
+  <header>
+    <div class="logo">
+      <img src="asset/images/logo.png" alt="Logo SMP Negeri 1 Tembilahan">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="pages/berita.html">Berita</a></li>
+        <li><a href="pages/prestasi.html">Prestasi</a></li>
+        <li><a href="pages/kontak.html">Kontak</a></li>
+        <li><a href="pages/login.html">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Selamat Datang di SMP Negeri 1 Tembilahan</h1>
+      <p>Tempat belajar yang mengedepankan prestasi dan keunggulan.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 SMP Negeri 1 Tembilahan. All Rights Reserved.</p>
+  </footer>
 </body>
 </html>
